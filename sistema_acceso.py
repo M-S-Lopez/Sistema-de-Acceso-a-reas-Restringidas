@@ -167,10 +167,5 @@ def control_acceso_camara(nivel_acceso_requerido):
 #(user_1, nivel_acceso=1,horas_permitidas=["00:00", "29:59"])
 # Formato de allowed_hours: ["HH:MM", "HH:MM"] en formato 24 horas
 
-registrar_usuario("Martin Lopez", "FotoA.jpeg", nivel_acceso=3, horas_permitidas=["08:00", "17:00"])
-#registrar_usuario("Albert Castillo", "FotoB.png", nivel_acceso=3, horas_permitidas=["8:00", "15:59"])
-#registrar_usuario("Joquin Sanchez", "FotoC.png", nivel_acceso=3, horas_permitidas=["00:00", "07:59"])
-
 # Iniciar el control de acceso por cámara con un nivel de acceso requerido (ejemplo: 2)
-
-control_acceso_camara(nivel_acceso_requerido=2)
+#control_acceso_camara(nivel_acceso_requerido=2)
