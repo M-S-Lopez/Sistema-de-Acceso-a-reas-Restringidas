@@ -123,25 +123,6 @@ def control_acceso_camara(nivel_acceso_requerido):
     
     # Capturar video desde la cámara
     video_captura = cv2.VideoCapture(0)
-    #esta comentado porque saca fotos cada segundo, y el asistente de voz se vuelve medio loco
-    """while True:
-        # Capturar un frame del video
-        ret, frame = video_captura.read()
-        
-        if not ret:
-            print("Error al capturar la imagen.")
-            break
-        
-        # Verificar acceso basado en el nivel y condiciones
-        nombre_usuario = verify_access(frame, usuarios_autorizados, nivel_acceso_requerido)
-        
-        # Mostrar la imagen con el resultado en tiempo real
-        cv2.imshow('Video', frame)
-        
-        # Salir con la tecla 'q'
-        if cv2.waitKey(1) & 0xFF == ord('q'):
-            break """
-
     # Capturar un frame del video
     ret, frame = video_captura.read()
     
