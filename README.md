@@ -1,4 +1,5 @@
 Resumen Programa 
+
 Descripción: Este programa permite el control de acceso mediante reconocimiento facial, registra usuarios y verifica su acceso basado en su rostro y horario permitido.
 
 Registro de Usuarios:
@@ -17,6 +18,7 @@ registro_acceso.csv: Almacena el nombre del usuario, la fecha y hora de acceso, 
 
 
 Program Summary
+
 Description: This program allows access control through facial recognition, it registers users and verifies their access based on their face and allowed hours.
 
 User Registration:
