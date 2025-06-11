@@ -17,6 +17,8 @@ usuarios_autorizados.json: Almacena el nombre del usuario, su codificación faci
 registro_acceso.csv: Almacena el nombre del usuario, la fecha y hora de acceso, y el nivel de acceso.
 
 
+
+
 Program Summary
 
 Description: This program allows access control through facial recognition, it registers users and verifies their access based on their face and allowed hours.
